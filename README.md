@@ -14,11 +14,11 @@ problem: di fiturnya bagian "Baris 1: Pilih Kepanitiaan -> BEM -> Anggota = otom
      * Sistem langsung menjumlahkan total di bawah tabel menjadi 8 Poin." 
      agak aneh secara alur? bukan aneh, tapi lebih ke tidak efektif karna user harus input banyak kali, user juga bisa sabotase nilai dengan asal memasuki kategori atau sebagai apa
      
-  saran: agak aneh karena kita kan bilang make ocr, harusny hasil scan disimpen terus langsung dikalkulasi, poin SKKM keliatan + hasil scan kesimpen. tapi fitur diatas cocok kalau memang ada mode manual dan memang penasaran dengan jumlah poin saat itu juga atau terjadi sistem fall pada scanning atau uploading file. dan juga di akhir akan diminta sebuah file yang berisi bukti bahwa data sebelumnya valid. jika tidak maka user akan diminta untuk input ulang
+  saran: agak aneh karena kita kan bilang make ocr, harusny hasil scan disimpen terus langsung dikalkulasi, poin SKKM keliatan + hasil scan kesimpen. tapi fitur diatas cocok kalau memang ada mode manual dan memang penasaran dengan jumlah poin saat itu juga atau terjadi sistem fall pada scanning atau uploading file. dan juga di akhir akan diminta sebuah file yang berisi bukti bahwa data sebelumnya valid. jika tidak maka user akan diminta untuk input ulang.
 
 
 
-================================================================================================= Flow =============================================================================================================
+Flow:
 Alur user as Mahasiswa:
 1. login dengan nama, nim, jurusan, prodi.
 2. menampilkan menu Hero yang berisi 3 opsi: scan, upload file, kalkulator manual (case Nanta)
@@ -49,17 +49,6 @@ Alur user as Admin
              {{Pola}}  = "kondisiPola, KondisiPola2, ..."
 4. Hasil ouput dari proses masukan File peraturan poin akan diumumkan ke semua orang agar orang tidak bingung jika ternyata peraturan dirubah mendadak.
    (dalam suatu web Server hosting game yang ku beli, mereka seperti melakukan refresh tiap sekian detik namun tidak mempengaruhi input user sampai user menekan tombol "save", mungkin bisa gunakan metode ini juga)
-===================================================================================================================================================================================================================
-===================================================================================================================================================================================================================
-
-
-
-
-
-
-
-
-
 
 
 
