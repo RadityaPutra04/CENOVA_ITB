@@ -5,7 +5,7 @@ Masalah:
 - ketidaktahuan Poin SKKM yang FIX membuat mahasiswa harus terus bertanya serta menghitung dan mengingat poin mereka secara terus menerus
 
 ---
-analisis masalah fitur dll
+analisis masalah fitur dll:
 a. OCR adalah fitur yang unik dan sulit untuk dieksekusi. namun jika dapat dilakukan maka (1) OCR perlu dilatih agar bisa mengenali pola berupa "Tingkat, Peserta, Panitia, Juara 1-3, Juara harapan 1-3". Jika gagal, maka hasil foto scan sertif dapat di cek sendiri oleh manusia (alias man in the loop) yang mana berarti setiap hasil scan "harus tersimpan"
 
 ---
