@@ -6,17 +6,17 @@ Masalah:
 
 ---
 analisis masalah fitur dll:
-a. OCR adalah fitur yang unik dan sulit untuk dieksekusi. namun jika dapat dilakukan maka (1) OCR perlu dilatih agar bisa mengenali pola berupa "Tingkat, Peserta, Panitia, Juara 1-3, Juara harapan 1-3". Jika gagal, maka hasil foto scan sertif dapat di cek sendiri oleh manusia (alias man in the loop) yang mana berarti setiap hasil scan "harus tersimpan"
+1. OCR adalah fitur yang unik dan sulit untuk dieksekusi. namun jika dapat dilakukan maka (1) OCR perlu dilatih agar bisa mengenali pola berupa "Tingkat, Peserta, Panitia, Juara 1-3, Juara harapan 1-3". Jika gagal, maka hasil foto scan sertif dapat di cek sendiri oleh manusia (alias man in the loop) yang mana berarti setiap hasil scan "harus tersimpan"
 
 ---
 ide fitur:
-nanta - [fitur kalkulasi dimana user memilih opsi kegiatan, tingkat, dan sebagai apa maka hasil poin akan muncul]
+1. nanta - [fitur kalkulasi dimana user memilih opsi kegiatan, tingkat, dan sebagai apa maka hasil poin akan muncul]
 problem: di fiturnya bagian "Baris 1: Pilih Kepanitiaan -> BEM -> Anggota = otomatis muncul 2 Poin.
      * Baris 2: Pilih Prestasi Penalaran -> Nasional -> Juara I = otomatis muncul 6 Poin.
      * Sistem langsung menjumlahkan total di bawah tabel menjadi 8 Poin." 
      agak aneh secara alur? bukan aneh, tapi lebih ke tidak efektif karna user harus input banyak kali, user juga bisa sabotase nilai dengan asal memasuki kategori atau sebagai apa
      
-  saran: agak aneh karena kita kan bilang make ocr, harusny hasil scan disimpen terus langsung dikalkulasi, poin SKKM keliatan + hasil scan kesimpen. tapi fitur diatas cocok kalau memang ada mode manual dan memang penasaran dengan jumlah poin saat itu juga atau terjadi sistem fall pada scanning atau uploading file. dan juga di akhir akan diminta sebuah file yang berisi bukti bahwa data sebelumnya valid. jika tidak maka user akan diminta untuk input ulang.
+- saran: agak aneh karena kita kan bilang make ocr, harusny hasil scan disimpen terus langsung dikalkulasi, poin SKKM keliatan + hasil scan kesimpen. tapi fitur diatas cocok kalau memang ada mode manual dan memang penasaran dengan jumlah poin saat itu juga atau terjadi sistem fall pada scanning atau uploading file. dan juga di akhir akan diminta sebuah file yang berisi bukti bahwa data sebelumnya valid. jika tidak maka user akan diminta untuk input ulang.
 
 
 ---
